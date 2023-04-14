@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j4ippt+3h39u4ontllpc8a(4h&^god(7aicz#@q^sl_(w)2otp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '127.0.0.1:8000', 'www.promptography.co', 'www.promptograph.co']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'conversation',
     'core',
     'dashboard',
-    'item',
+    'prompt',
 ]
 
 MIDDLEWARE = [
